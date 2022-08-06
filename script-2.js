@@ -69,9 +69,9 @@
 // }
 // console.log("Total", totalSalary);
 
-const min = 0;
-const max = 10;
-let total = 0;
+// const min = 0;
+// const max = 10;
+// let total = 0;
 
 // for (let i = min; i <= max; i += 1) {
 // 	if (i % 2 === 0) {
@@ -83,12 +83,36 @@ let total = 0;
 // }
 // console.log("total", total);
 
-for (let i = min; i <= max; i += 1) {
-	if (i % 2 !== 0) {
-		console.log("Odd:", i);
-		continue;
-	}
-	console.log("None:", i);
-	total += i;
-}
-console.log("total", total);
+// for (let i = min; i <= max; i += 1) {
+// 	if (i % 2 !== 0) {
+// 		console.log("Odd:", i);
+// 		continue;
+// 	}
+// 	console.log("None:", i);
+// 	total += i;
+// }
+// console.log("total", total);
+
+// let totalSpent = 3000;
+// let payment = 500;
+// let discount = 0;
+// let message;
+// if (totalSpent >= 100 && totalSpent < 1000) {
+// 	discount = 0.02;
+// 	message = `Клиент с бронзовой картой скидка ${discount * 100}%`;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+// 	discount = 0.05;
+// 	message = `Клиент с серебряной картой скидка ${discount * 100}%`;
+// } else if (totalSpent >= 5000) {
+// 	discount = 0.1;
+// 	message = `Клиент с золотой картой скидка ${discount * 100}%`;
+// } else {
+// 	message = "Не является клиентом магазина";
+// }
+// paymentDiscount = payment - payment * discount;
+// totalSpent += paymentDiscount;
+// console.log(message);
+// console.log(
+// 	`Вы совершили покупку на сумму ${payment}, общая сумма к оплате с учетом вашей скидки составит ${paymentDiscount} `,
+// );
+// console.log(`Общая сумма потраченных средств в магазине ${totalSpent}`);
