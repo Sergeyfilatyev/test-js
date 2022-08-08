@@ -36,3 +36,32 @@
 // }
 // funk1();
 // // console.log(funk1());
+
+// //Напишите функцию min(a, b), которая возвращает
+// //меньшее из чисел a, b
+// //нужно добавить проверку, что функция получает числа
+// function min(a, b) {
+//   if (isNaN(a) || isNaN(b)) {
+//     return 'Not a number';
+//   }
+//   if (a > b) {
+//     return b;
+//   }
+//   return a;
+// }
+// console.log(min('a', 'k'));
+
+// function calculateAverage(...args) {
+//   let total = 0;
+//   let count = 0;
+//   console.log(args);
+//   for (const arg of args) {
+//     if (arg === Number(arg)) {
+//       total += arg;
+//       count += 1;
+//     }
+//   }
+//   return total / count;
+//   // console.log(total)
+// }
+// console.log(calculateAverage(1, 'k', 15, '11'));
