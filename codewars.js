@@ -1,11 +1,13 @@
 // function friend(friends) {
-// 	//your code here
-// 	for (let i = 0; i < friends.length; i += 1) {
-// 		if (friends[i].length === 4) {
-// 			console.log(friends[i], "My friend");
-// 		} else {
-// 			console.log(friends[i], "Not my friend");
-// 		}
-// 	}
+//   //your code here
+
+//   let result = [];
+//   for (let i = 0; i < friends.length; i += 1) {
+//     if (friends[i].length === 4) {
+//       result.push(friends[i]);
+//     }
+//   }
+//   return result;
 // }
-// friend(["Ryan", "Kieran", "Jason", "Yous"]);
+
+// console.log(friend(['Ryan', 'Kieran', 'Jason', 'Yous']));
