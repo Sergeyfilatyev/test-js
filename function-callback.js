@@ -106,3 +106,12 @@
 // const numbers = [1, 2, 34, 5, 6];
 // const someNumbers = numbers.some(number => number > 33);
 // console.log(someNumbers);
+
+//
+// // REDUCE
+// const numbers = [1, 2, 34, 5, 6];
+// const reduceNumbers = numbers.reduce((acc, number) => {
+//   console.log(acc, number);
+//   return acc + number;
+// }, 0);
+// console.log(reduceNumbers);

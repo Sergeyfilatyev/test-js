@@ -65,3 +65,21 @@
 // }
 
 // console.log(nbDig(25, 1));
+
+//
+
+// function getMiddle(s) {
+//   if (s.length % 2 === 0) {
+//     return s[s.length / 2 - 1].concat(s[s.length / 2]);
+//   } else return s[Math.round(s.length / 2 - 1)];
+// }
+// console.log(getMiddle('testq'));
+
+//
+
+// function sortArray(array) {
+//   const newArray = [];
+// }
+// console.log(sortArray([5, 8, 6, 3, 4]));
+// console.log(sortArray([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]));
+// console.log(sortArray([7, 1]));
