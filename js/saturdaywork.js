@@ -110,3 +110,35 @@
 //   return total;
 // };
 // console.log(totalSalary({}));
+
+//
+//Напиши класс Client котрорый создает объект
+//со свойствами login email
+//Объяви приватные свойства #login #email,
+//доступ к которым сделай через геттер и сеттер login email
+
+// class Client {
+//   #login;
+//   #email;
+//   constructor(login, email) {
+//     this.#login = login;
+//     this.#email = email;
+//   }
+//   get login() {
+//     return this.#login;
+//   }
+//   set login(newLogin) {
+//     this.#login = newLogin;
+//   }
+//   get email() {
+//     return this.#email;
+//   }
+//   set email(newEmail) {
+//     this.#email = newEmail;
+//   }
+// }
+
+// const client = new Client('Mango', 'mango@mail.com');
+// client.login = 'Apple';
+// client.email = 'apple@mail.com';
+// console.dir(client);

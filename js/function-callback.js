@@ -115,3 +115,35 @@
 //   return acc + number;
 // }, 0);
 // console.log(reduceNumbers);
+
+// const tweets = [
+//   { a: 3, b: 4, tags: ['html', 'js', 'css'] },
+//   { a: 5, b: 6, tags: ['css', 'html', 'ps'] },
+//   { a: 7, b: 8, tags: ['ts', 'html', 'js'] },
+// ];
+// const allTags = tweets.reduce((tags, tweet) => {
+//   tags.push(...tweet.tags);
+//   return tags;
+// }, []);
+// console.log(allTags);
+// const tagsStats = allTags.reduce((acc, tag) => {
+//   return {
+//     ...acc,
+//     [tag]: acc[tag] ? acc[tag] + 1 : 1,
+//   };
+// }, {});
+// console.log(tagsStats);
+
+//
+// //SORT
+// const numbers = [1, 2, 74, 5, 6];
+// const sortNumbers = [...numbers].sort();
+// const accNumbers = [...numbers].sort((a, b) => a - b);
+// const revNumbers = [...numbers].sort((a, b) => b - a);
+// console.log(sortNumbers);
+// console.log(accNumbers);
+// console.log(revNumbers);
+
+// //
+// console.log(_.isEmpty({}));
+// console.log(_.isEmpty({ a: 1 }));

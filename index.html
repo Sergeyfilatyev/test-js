@@ -7,18 +7,85 @@
     <title>Document</title>
   </head>
   <body>
-    <button class="js-btn">Button</button>
-    <!-- <script src="./script-1.js" type="module"></script> -->
-    <!-- <script src="./script-2.js" type="module"></script> -->
-    <!-- <script src="./autocheck-1.js" type="module"></script> -->
-    <!-- <script src="./script-3.js" type="module"></script> -->
-    <!-- <script src="./script-4.js" type="module"></script> -->
-    <!-- <script src="./script-object.js" type="module"></script> -->
-    <!-- <script src="./function-callback.js" type="module"></script> -->
-    <!-- <script src="./autocheck-2.js" type="module"></script> -->
-    <!-- <script src="./autocheck-3.js" type="module"></script> -->
-    <script src="./autocheck-4.js" type="module"></script>
-    <script src="./codewars.js" type="module"></script>
-    <!-- <script src="./saturdaywork.js" type="module"></script> -->
+    <div class="counter">
+      <button class="js-decrement">Уменьшить</button>
+      <p class="js-value">0</p>
+      <button class="js-increment">Увеличить</button>
+    </div>
+    <form>
+      <input type="text" class="js-input" />
+      <button class="btn-magic" type="button">Magic</button>
+    </form>
+
+    <div>
+      <button class="js-btn" data-action="remove">delete</button>
+      <button class="js-btn" data-action="add">new</button>
+      <button class="js-btn" data-action="edit">edit</button>
+    </div>
+    <div id="parent">
+      Parent
+      <div id="child">
+        Child
+        <div id="descendant">Descendant</div>
+      </div>
+    </div>
+    <style>
+      button {
+        margin: 10px;
+      }
+      .tags__item {
+        border: 1px solid red;
+        margin: 5px;
+      }
+      .tags__btn--active {
+        background-color: aquamarine;
+      }
+    </style>
+    <button type="button" class="add-btn">Add button</button>
+    <div style="border: 1px solid red" class="js-box"></div>
+    <ul style="list-style: none; display: flex; flex-wrap: wrap" class="tags">
+      <li class="tags__item">
+        <button class="tags__btn" data-value="html">#html</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="css">#css</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="javascript">#javascript</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="npm">#npm</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="webpack">#webpack</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="react">#react</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="redux">#redux</button>
+      </li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="nodejs">#nodejs</button>
+      </li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <!-- <script src="./js/autocheck-1.js" type="module"></script> -->
+    <!-- <script src="./js/autocheck-2.js" type="module"></script> -->
+    <!-- <script src="./js/autocheck-3.js" type="module"></script> -->
+    <!-- <script src="./js/autocheck-4.js" type="module"></script> -->
+    <!-- <script src="./js/autocheck-5.js" type="module"></script> -->
+    <!-- <script src="./js/script-1.js" type="module"></script> -->
+    <!-- <script src="./js/script-2.js" type="module"></script> -->
+    <!-- <script src="./js/script-3.js" type="module"></script> -->
+    <!-- <script src="./js/script-4.js" type="module"></script> -->
+    <!-- <script src="./js/script-object.js" type="module"></script> -->
+    <!-- <script src="./js/function-callback.js" type="module"></script> -->
+    <!-- <script src="./js/this-call-bind.js" type="module"></script> -->
+    <!-- <script src="./js/prototype-class.js" type="module"></script> -->
+    <!-- <script src="./js/codewars.js" type="module"></script> -->
+    <!-- <script src="./js/saturdaywork.js" type="module"></script> -->
+    <script src="./js/dom.js" type="module"></script>
   </body>
 </html>
