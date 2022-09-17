@@ -135,3 +135,23 @@
 // // console.log(toWeirdCase('String'));
 // console.log(toWeirdCase('Weird string case'));
 // console.log(toWeirdCase('String'));
+
+// //
+// function greet(name) {
+//   return `Hello, ${name} how are you doing today?`;
+// }
+
+//
+// function firstNonRepeatingLetter(s) {
+//   const arr = s.toLowerCase().split('');
+
+//   for (let i = 0; i < arr.length; i += 1) {
+//     const firstIndex = arr.indexOf(arr[i]);
+//     const lastIndex = arr.lastIndexOf(arr[i]);
+//     if (firstIndex === lastIndex) {
+//       return arr[i];
+//     }
+//   }
+//   return '';
+// }
+// console.log(firstNonRepeatingLetter('Sisiei'));
